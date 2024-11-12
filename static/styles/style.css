@@ -8,9 +8,14 @@ p {
 main {
     text-align: center;
 }
+
 .conteiner {
+    margin: 20px;
     display: inline-block;
     text-align: center;
     background-color: beige;
 }
 
+.conteiner>img {
+    max-width: 300px;
+}
